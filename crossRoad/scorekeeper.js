@@ -54,7 +54,7 @@ AFRAME.registerComponent('scorekeeper', {
     if (this.gameOver){
       timer.setAttribute('text','value',"Next day...")
       this.el.object3D.position.y = 10 // move the avatar above the board!
-      window.location.href = '/index.html'; 
+      window.location.href = './index.html'; 
     }
   }
 
