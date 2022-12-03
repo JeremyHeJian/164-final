@@ -1,0 +1,11 @@
+Model Information:
+* title:	Realistic bus
+* source:	https://sketchfab.com/3d-models/realistic-bus-1533810cfbf146ac813da2b03f12befa
+* author:	dfdsfg (https://sketchfab.com/chrisyopher595aaa)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Realistic bus" (https://sketchfab.com/3d-models/realistic-bus-1533810cfbf146ac813da2b03f12befa) by dfdsfg (https://sketchfab.com/chrisyopher595aaa) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
