@@ -14,11 +14,6 @@
         <a-asset-item id="banana1" src="banana1.gltf"></a-asset-item>
         <a-asset-item id="suzyanim" src="suzyanim.gltf"></a-asset-item>
       </a-assets>
-      <!-- <a-entity gltf-model="banana1.gltf"
-              position="20 -3 -40" 
-              follow="target:#avatar;url:gameover.html; speed:2; dist:10"
-              scale="4 4 4"
-              ></a-entity> -->
       <a-entity gltf-model="mango.gltf"
               position="-10 -3 -40" 
               scale="6 6 6"
@@ -30,13 +25,20 @@
       <a-entity gltf-model="pear.gltf"
               animation-mixer="clip:nod"
               position="-20 -3 -40" 
-              follow="target:#avatar;url:gameover.html; speed:2; dist:10"
               scale="4 4 4"
               ></a-entity>
       <a-entity gltf-model="cake.gltf"
               position="0 -3 -40" 
               scale="10 10 10"
               ></a-entity>
+      <a-box  
+              id="box0"
+              follow="target:#avatar;url:/WWD/index.html; speed:20; dist:6"
+              ammo-body="type:kinematic" ammo-shape="type:box"
+              material="color:white;  repeat:1 1"  
+              scale="2 2 2"
+              position="0 0 -40">
+          </a-box>
       <a-text value="After working hard entire day, pick a refreshment to power up! Only pick the right refreshment, you will have enough energy for next level!" scale="2 2 2" position="0 9 0"></a-text>
       <a-entity geometry="primitive:sphere" material="color:white; shader:flat" light="type:point" position="-4 10 -20"></a-entity>
       <a-entity geometry="primitive:sphere" material="color:white; shader:flat" light="type:point" position="4 20 20"></a-entity>
