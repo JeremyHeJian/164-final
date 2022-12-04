@@ -168,8 +168,27 @@
       scale="10 10 10"
     ></a-entity>
 
+    <a-entity
+      id="robot1"
+      gltf-model="robo.gltf"
+      animation-mixer="clip:move"
+      material="src:ball.jpg" 
+      scale="0.7 0.7 0.7" 
+      position="-10 2 -130"
+    ></a-entity>
+
+    <a-entity
+      id="robot2"
+      gltf-model="robo.gltf"
+      animation-mixer="clip:move"
+      material="src:ball.jpg" 
+      scale="0.7 0.7 0.7" 
+      position="10 2 -130"
+      rotation="0 180 0"
+    ></a-entity>
+
     <!-- Next Scene -->
-    <a-link href="/escape/index.html"
+    <a-link href="/Level2/index.html"
             link-controls
             title="Office" 
             position="0 2 -130"
